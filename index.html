@@ -240,17 +240,23 @@
         <form action="#" class="form">
           <div class="input-group">
             <label for="userName" class="input-lable">Имя</label>
-            <input id="userName" type="text" class="input" />
+            <input id="userName" name="client_name" type="text" class="input" />
           </div>
           <!-- /.input-group -->
           <div class="input-group">
             <label for="userEmail" class="input-lable">Email</label>
-            <input id="userEmail" type="text" class="input" />
+            <input
+              id="userEmail"
+              name="client_email"
+              type="text"
+              class="input"
+            />
           </div>
           <!-- /.input-group -->
           <div class="input-group">
             <label for="userMassage" class="input-lable">Сообщение</label>
             <textarea
+              name="client_message"
               id="userMassage"
               cols="30"
               rows="30"
